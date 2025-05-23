@@ -1,0 +1,9 @@
+ background-image: linear-gradient(to top #5396B8, #5295B6, #5295B6);
+
+ @font-face {
+            font-family: 'andoid';
+            src: url('idroid.otf') format('opentype');
+            font-weight: normal;
+}
+
+.
