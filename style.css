@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+HR+Lijeva:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+ @font-face{
+            font-family: 'android';
+            src: url(idroid.otf) format('opentype');
+            font-weight: 2em;
+            font-style: normal;
+        }
+
+
+:root{
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'Bebas Neue', 'cursive';
+    --font-android: 'android', 'cursive';
+}
+
+
+body{
+    background-color: #025940;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0px;
+    font-family: var(--font-padrao);
+    
+}
+h1{
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to top, #026B30, #03A64A, #04E064);
+    padding: 10px;
+    width: 100%;
+    box-shadow: 1px 1px 10px #013317b4;
+    font-family: var(--font-destaque);
+    
+}
+
+header > h1{
+    text-align: center;
+    margin: auto;
+    color: white;
+    margin: 0px;
+    text-shadow: 3px 3px 4px #000705;
+}
+
+header > h2{
+    text-align: justify;
+    color: #066d4ce1;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-shadow: -1px 1px 0px #023C2A;
+    
+}
+
+nav > a{
+    border-radius: 5px;
+    padding: 4px;
+    color: #48df89;
+    text-decoration: none;
+
+}
+
+nav > a:hover{
+    padding: 7px;
+    background-color: #04df639d;
+}
+
+main{
+
+    text-align: justify;
+    margin: 0px 1.5em 0px 1.5em;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 3px 5px rgba(124, 124, 124, 0.753);
+}
+
+
+#historia > article > h1{
+    color: #023021;
+    font-family: var(--font-android);
+    font-size: 2em;
+}
+
+#historia > article > p{
+    text-indent: 15px;
+}
+
+#primeira > article > h2{
+   background-image: linear-gradient(to right, #05885e96, #06a34a9c, #08c0586c, lightgray);
+    color: #04553b;
+    padding: 3px;
+    box-shadow: 1px 2px 3px #04583e41;
+    text-shadow: 1px 1px 2px #025940;
+    font-family: var(--font-android);    
+}
+
+#primeira > article > p{
+    text-indent: 15px;
+}
+
+#primeira > article > p > a{
+    text-decoration: none;
+    color: #023C2A;
+    background-image: linear-gradient(to right, #05885e96, #06a34a9c, #08c0586c, #10e06a6c);
+    padding: 2px;
+
+}
+
+#primeira > article > p > a:hover{
+    text-decoration: underline;
+    padding: 3px;
+
+}
+
+
+.negritoverde{
+    font-weight: bold;
+    color: #023021;
+}
+
+#mascote > article > h2{
+   background-image: linear-gradient(to right, #05885e96, #06a34a9c, #08c0586c, lightgray);
+    color: #04553b;
+    padding: 3px;
+    box-shadow: 1px 2px 3px #04583e41;
+    text-shadow: 1px 1px 2px #025940;
+    font-family: var(--font-android);
+    
+}
+
+#mascote> article > p > a{
+    text-decoration: none;
+    color: #023C2A;
+    background-image: linear-gradient(to right, #05885e96, #06a34a9c, #08c0586c, #10e06a6c);
+    padding: 2px;
+
+}
+
+#mascote> article > p > a:hover{
+    text-decoration: underline;
+    padding: 3px;
+
+}
+
+#droid{
+    width: 200px;
+    height: -100px;
+    display: block;
+    margin: auto;
+}
+
+#mascote > article > p{
+    text-indent: 15px;
+}
+
+img{
+    width: 100%;
+}
+
+#aprender{
+    margin: 0px;
+    background-color: #33e47fc7;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 3px 3px #1e814980;
+    
+}
+
+#aprender > article > p > a{
+    text-decoration: none;
+    color: #000705;
+    background-image: linear-gradient(to right, #05885e96, #06a34a9c, #08c0586c, #10e06a6c);
+    padding: 2px;
+}
+
+#aprender> article > p > a:hover{
+    text-decoration: underline;
+    padding: 3px;
+
+}
+
+
+
+#video{
+    margin-bottom: 20px;
+}
+
+#testeh2{
+    background-color: #026B30;
+    margin: 0px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#aprender > article > p{
+    text-indent: 15px;
+}
+
+.listadupla{
+    display: inline-block;
+    
+}
+
+ul{
+    list-style: circle;
+}
+
+#ultimotexto{
+    display: block;
+    
+    text-align: center;
+    margin: 15px;
+}
+
+#rodape{
+    background-color: #010f0a;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+
+#rodape > p{
+    margin: 0px;
+}
