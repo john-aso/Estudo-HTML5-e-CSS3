@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(20, 20, 20);
+}
+h1{
+    color: azure;
+    text-align: center
+}
+img{
+    text-align: center;
+}
+p{
+    color: beige;
+}
